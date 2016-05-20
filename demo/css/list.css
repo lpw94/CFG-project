@@ -92,7 +92,7 @@
 .list-slide-viewport {
   position: relative;
   height: 100%;
-  background-image: url('../images/list/list-banner-bg.png');
+  background-image: url('../images/list-banner-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
