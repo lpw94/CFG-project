@@ -16,8 +16,6 @@
 		<iframe src="javascript:false" style="display: none;" src="#"></iframe>
 		<script type="text/javascript" async="" src="js/analytics.js"></script>
 		<script type="text/javascript" async="" src="js/ec.js"></script>
-		<script async="" src="js/analytics.js"></script>
-		<script async="" src="js/analytics.js"></script>
 		<script async="" src="js/gtm.js"></script>
 	
 		<!-- GLOBAL CSS START -->
@@ -81,13 +79,13 @@
 						</a>
 						<ul class="cbg-inline">
 							<li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
-              <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
-              <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
-              <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
+			                <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
+			                <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
+			                <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
 							<li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
 							<li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
-              <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
-              <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
+				            <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
+				            <li><a href="javascript:void(0)" data-submenu="4"><span>软件应用</span></a></li>
 						</ul>
 
 						<!-- search -->
@@ -109,57 +107,7 @@
 		<!--IE8-->
 
 		<!--/IE8-->
-		<style>
-			.browsehappy {
-				text-align: center;
-				background: #cccccc;
-				display: none;
-				height: 50px;
-				line-height: 50px;
-				overflow: hidden
-			}
-			
-			@media screen and (-webkit-min-device-pixel-ratio:0) {
-				.browsehappy {
-					height: 50px;
-					line-height: 50px;
-				}
-			}
-			
-			{}
-			
-			.browsehappy {
-				height: 55px;
-				line-height: 55px;
-				\0;
-			}
-			
-			.browsehappy img {
-				vertical-align: middle;
-				border: none;
-			}
-			
-			.browsehappy p a {
-				color: #000;
-				text-decoration: none;
-			}
-			
-			.browsehappy p a img {
-				border: none;
-			}
-			
-			@media screen and (-webkit-min-device-pixel-ratio:0) {
-				.browsehappy {
-					margin-top: 0px;
-				}
-			}
-			
-			{}
-			
-			.browsehappy {
-				margin-top: -3px\0;
-			}
-		</style>
+		
 		<div class="y-content">
 			<!-- COMPONENT HTML START -->
 			<div class="ncbg">
@@ -978,60 +926,7 @@
 			<!-- SS_END_SNIPPET(fragment1,footer)-->
 
 
-		<script>
-			$(document).ready(function() {
-				var ieV = lessIE9()
-				if (ieV == 1) {
-					$(".browsehappy").show()
-					$("#cbg-main-nav-wrapper").css("top", "50px")
-				} else {
-					$(".browsehappy").remove()
-					$("#cbg-main-nav-wrapper").css("top", "0")
-				}
-				$(window).on('scroll', function() {
-					var _b = $(".browsehappy").length;
-					var _c = $(window).scrollTop()
-					var _s = $("#cbg-main-nav ul.cbg-menu > li > a > span")
-					if (_b > 0) {
-						if (_c > 0) {
-							$(".browsehappy").remove()
-							$("#cbg-main-nav-wrapper").css("top", "0")
-						}
-					} else {
-						$(".browsehappy").remove()
-						$("#cbg-main-nav-wrapper").css("top", "0")
-					}
-				});
-			})
-
-			function lessIE9() {
-				var browser = navigator.appName
-				if (browser == "Microsoft Internet Explorer") {
-					var b_version = navigator.appVersion
-					var version = b_version.split(";");
-					var trim_Version = version[1].replace(/[ ]/g, "");
-					trim_Version = parseFloat(trim_Version.replace("MSIE", ''))
-					if (trim_Version < 9) {
-						return 1
-					}
-				}
-				return 0
-			}
-			$(".browsecolse").click(function() {
-				$("#cbg-main-nav-wrapper").css("top", "0")
-				$(".browsehappy").remove()
-			});
-			$(window).on('scroll', function(e) {
-				var st = $(window).scrollTop();
-				if (st > 0) {
-					$("#cbg-main-nav-wrapper").hide();
-				} else {
-					$("#cbg-main-nav-wrapper").not(".cbg-icon-search").show();
-				}
-			});
-		</script>
-		<!-- GLOBAL JAVASCRIPT DEPENDENCIES END -->
-
+		
 		<!-- COMPONENT JAVASCRIPT START -->
 		<script type="text/javascript" src="js/p9.js"></script>
 		<!-- COMPONENT JAVASCRIPT END -->
